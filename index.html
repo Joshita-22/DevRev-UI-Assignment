@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevRev Library Management Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color:rgb(200, 237, 222);">
+   <div class="container" >
+    <h1>DevRev Library Management Page</h1>
+        <input class="form-control" id="myInput" type="text" placeholder="Search...">
+        <br>
+        <table class=" table table-bordered prettify " id="myTable" >
+            <tbody >
+              <tr>
+                <td class="box"> <strong>Title: </strong> A Better India: A Better World</td>
+                <td> <strong>Author:</strong>  Narayana Murthy</td>
+                <td><strong>Subject:</strong>  Novel</td>
+                <td><strong>Publish_Year:</strong>  2009</td>
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Fault In Our Stars </td>
+                <td> <strong>Author:</strong>John Green  </td>
+                <td><strong>Subject:</strong>Novel </td>
+                <td><strong>Publish_Year:</strong> 2012</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Cold Comfort Farm  </td>
+                <td> <strong>Author:</strong> Stella Gibbons </td>
+                <td><strong>Subject:</strong>Fiction </td>
+                <td><strong>Publish_Year:</strong>1932</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>The Non-Western World  </td>
+                <td> <strong>Author:</strong>Karan, Pradyumna P  </td>
+                <td><strong>Subject:</strong>Sociology </td>
+                <td><strong>Publish_Year:</strong> 2004</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>In Cold Blood  </td>
+                <td> <strong>Author:</strong>Truman Capote  </td>
+                <td><strong>Subject:</strong> Non-fiction</td>
+                <td><strong>Publish_Year:</strong>1966</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Health Dimensions of COVID-19 in India and Beyond  </td>
+                <td> <strong>Author:</strong> Pachauri, Saroj; Pachauri, Ash </td>
+                <td><strong>Subject:</strong> Sociology</td>
+                <td><strong>Publish_Year:</strong>2022 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Behold,Here's poison  </td>
+                <td> <strong>Author:</strong>Georgette Heyer </td>
+                <td><strong>Subject:</strong>Non Fiction </td>
+                <td><strong>Publish_Year:</strong>1936 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Band Of brothers  </td>
+                <td> <strong>Author:</strong> Stephen E.Ambrose </td>
+                <td><strong>Subject:</strong>Drama </td>
+                <td><strong>Publish_Year:</strong> 1992</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong> Embodiments of Cultural Encounters </td>
+                <td> <strong>Author:</strong>Jobs, Sebastian; Mackenthun, Gesa   </td>
+                <td><strong>Subject:</strong> Sociology</td>
+                <td><strong>Publish_Year:</strong>2011 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong> Mortal Engines </td>
+                <td> <strong>Author:</strong> Philip Reeve  </td>
+                <td><strong>Subject:</strong> Action</td>
+                <td><strong>Publish_Year:</strong> 2001</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Integrating Food into Urban Planning  </td>
+                <td> <strong>Author:</strong> Cabannes, Yves; Marocchino, Cecilia </td>
+                <td><strong>Subject:</strong>Sociology </td>
+                <td><strong>Publish_Year:</strong>2018 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Tellings and Texts: Music, Literature and Performance in North India </td>
+                <td> <strong>Author:</strong>Butler Schofield, Katherine; Orsini, Francesca  </td>
+                <td><strong>Subject:</strong>Society & Culture:General </td>
+                <td><strong>Publish_Year:</strong>2015 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Women and the Colonial State  </td>
+                <td> <strong>Author:</strong> Locher-Scholten, Elsbeth </td>
+                <td><strong>Subject:</strong>Society & Culture:General </td>
+                <td><strong>Publish_Year:</strong>2000 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>A Post-Neoliberal Era in Latin America?  </td>
+                <td> <strong>Author:</strong> Gómez Michel, Gerardo; López, Magdalena; Nehring, Daniel </td>
+                <td><strong>Subject:</strong> Society & Culture:General</td>
+                <td><strong>Publish_Year:</strong>2019 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Daily Life for the Common People of China </td>
+                <td> <strong>Author:</strong>Suleski, Ronald  </td>
+                <td><strong>Subject:</strong>Society & Culture:General </td>
+                <td><strong>Publish_Year:</strong> 2018</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong> Towards Shared Research </td>
+                <td> <strong>Author:</strong>Haller, Tobias; Zingerli, Claudia  </td>
+                <td><strong>Subject:</strong>Society & Culture:General </td>
+                <td><strong>Publish_Year:</strong>2020 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong> The sound and the fury</td>
+                <td> <strong>Author:</strong> william Faulkner </td>
+                <td><strong>Subject:</strong>Society & Culture:General </td>
+                <td><strong>Publish_Year:1929</strong> </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>The Value of Culture </td>
+                <td> <strong>Author:</strong> Klamer, Arjo </td>
+                <td><strong>Subject:</strong>Society & Culture:General </td>
+                <td><strong>Publish_Year:</strong>1997 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Responding to the West  </td>
+                <td> <strong>Author:</strong>Hägerdal, Hans   </td>
+                <td><strong>Subject:</strong>Society & Culture:General </td>
+                <td><strong>Publish_Year:</strong>2009 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>The Non-Western World   </td>
+                <td> <strong>Author:</strong>Karan, Pradyumna P  </td>
+                <td><strong>Subject:</strong>Development studies </td>
+                <td><strong>Publish_Year:</strong>2004 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Global humanitarianism and media culture </td>
+                <td> <strong>Author:</strong>Lawrence, Michael; Tavernor, Rachel  </td>
+                <td><strong>Subject:</strong>Development studies </td>
+                <td><strong>Publish_Year:</strong>2019 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Rethinking sustainable cities: Accessible, green and fair  </td>
+                <td> <strong>Author:</strong>Simon, David  </td>
+                <td><strong>Subject:</strong> Development studies</td>
+                <td><strong>Publish_Year:</strong>2016 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Dull Disasters? How planning ahead will make a difference </td>
+                <td> <strong>Author:</strong>Clarke, Daniel J.; Dercon, Stefan  </td>
+                <td><strong>Subject:</strong> Development studies</td>
+                <td><strong>Publish_Year:</strong>2016 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Integrating Food into Urban Planning  </td>
+                <td> <strong>Author:</strong> Cabannes, Yves; Marocchino, Cecilia  </td>
+                <td><strong>Subject:</strong> Development studies</td>
+                <td><strong>Publish_Year:</strong>2018 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Arbitrary States </td>
+                <td> <strong>Author:</strong>Tapscott, Rebecca  </td>
+                <td><strong>Subject:</strong> Development studies</td>
+                <td><strong>Publish_Year:</strong>2021 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>NGOs in India  </td>
+                <td> <strong>Author:</strong>Kilby, Patrick  </td>
+                <td><strong>Subject:</strong>Development studies </td>
+                <td><strong>Publish_Year:</strong>2010 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong> The Urban Climate Challenge</td>
+                <td> <strong>Author:</strong>Johnson, Craig; Toly, Noah; Schroeder, Heike  </td>
+                <td><strong>Subject:</strong> Urban & Municipal planning</td>
+                <td><strong>Publish_Year:</strong> 2015</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>No eind Of Blame  </td>
+                <td> <strong>Author:</strong> Georgette Heyer </td>
+                <td><strong>Subject:</strong>Urban & Municipal planning </td>
+                <td><strong>Publish_Year:</strong>1945 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Urban Food Systems Governance and Poverty in African Cities  </td>
+                <td> <strong>Author:</strong> Battersby, Jane; Watson, Vanessa </td>
+                <td><strong>Subject:</strong>Urban & Municipal planning </td>
+                <td><strong>Publish_Year:</strong> 2018</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong> I know why the caged Bird sings </td>
+                <td> <strong>Author:</strong> maya angeleou </td>
+                <td><strong>Subject:</strong> autobiography</td>
+                <td><strong>Publish_Year:</strong> 1969</td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>London’s Urban Landscape  </td>
+                <td> <strong>Author:</strong>Tilley, Christopher  </td>
+                <td><strong>Subject:</strong>Urban & Municipal planning  </td>
+                <td><strong>Publish_Year:</strong>2019 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong> Police Code of Silence in Times of Change </td>
+                <td> <strong>Author:</strong> Maria Maki  </td>
+                <td><strong>Subject:</strong> Crime & Criminology</td>
+                <td><strong>Publish_Year:</strong>2022 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>The Role of Community-Mindedness in the Self-Regulation of Drug Cultures  </td>
+                <td> <strong>Author:</strong> Stallwitz, Anke  </td>
+                <td><strong>Subject:</strong>Crime & Criminology </td>
+                <td><strong>Publish_Year:</strong>2012 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Asylum Matters  </td>
+                <td> <strong>Author:</strong>Affolter, Laura  </td>
+                <td><strong>Subject:</strong>Crime & Criminology </td>
+                <td><strong>Publish_Year:</strong>2021 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Amtsmißbrauch  </td>
+                <td> <strong>Author:</strong>Alten, Klaus,  </td>
+                <td><strong>Subject:</strong> Crime & Criminology</td>
+                <td><strong>Publish_Year:</strong>2012 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Video Games, Crime and Next-Gen Deviance </td>
+                <td> <strong>Author:</strong> Kevin  </td>
+                <td><strong>Subject:</strong>Crime & Criminology </td>
+                <td><strong>Publish_Year:</strong>2020 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>Transnational Organized Crime  </td>
+                <td> <strong>Author:</strong> Annette von  </td>
+                <td><strong>Subject:</strong> Crime & Criminology</td>
+                <td><strong>Publish_Year:</strong>2013 </td>  
+              </tr>
+              <tr>
+                <td class="box"> <strong>Title: </strong>The governance of female drug users </td>
+                <td> <strong>Author:</strong>Du Rose, Natasha  </td>
+                <td><strong>Subject:</strong>Crime & Criminology </td>
+                <td><strong>Publish_Year:</strong>2015 </td>  
+              </tr>
+
+
+            </tbody>
+          </table>
+        </div>
+        
+        <script>
+        $(document).ready(function(){
+          $("#myInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+           });
+          });
+        });
+        
+        </script>      
+        
+   </div> 
+
+</body>
+</html>
